@@ -1,2 +1,2 @@
-if __name__ == "__main__":
-    pass
+word = input()
+print('yes' if word == word[::-1] else 'no')
